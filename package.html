@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Package Details</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Package / Vehicle Details</h2>
+
+  <form class="form-step">
+    <label>Package Weight (kg) *</label>
+    <input type="number" max="25" placeholder="Max 25kg" required>
+    <small class="hint">Maximum allowed weight is 25kg</small>
+
+    <label>Select Vehicle *</label>
+    <select required>
+      <option value="">Choose vehicle</option>
+      <option>Bike (0–5kg)</option>
+      <option>Auto (5–15kg)</option>
+      <option>Mini Truck (15–25kg)</option>
+    </select>
+
+    <div class="btn-group">
+      <a href="pickup.html" class="btn secondary">Back</a>
+      <a href="summary.html" class="btn next">Next</a>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
